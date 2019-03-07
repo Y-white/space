@@ -1,0 +1,606 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.main-box{
+	width: 400px;
+	height: 700px;
+	margin: 60px auto;
+	border: 7px solid pink;
+	position: relative;
+	overflow: hidden;
+}
+.main{
+	width: 400px;
+	height: 700px;
+	overflow: hidden;
+}
+
+#mene{
+	width: 60%;
+	height: 649px;
+	border: 2px solid pink;
+	position: absolute;
+	top:0px;
+	left: -255px;
+	transition: left 0.8s;
+	z-index: 99;
+}
+
+.touxiang{
+	width: 100%;
+	height: 130px;
+	background: #fff;
+	border: 1px solid pink;
+	position: relative;
+}
+
+.touxiang span{
+	margin-top: 15px;
+	margin-left: 15px;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border: 5px solid pink;
+	border-radius: 50%;
+}
+
+.touxiang p{
+	position: absolute;
+	margin-top: 95px;
+	margin-left:24px; 
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hang{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	border-bottom: 1px solid pink;
+}
+
+.hang span{
+	width: 90px;
+	height: 20px;
+	background: #000;
+}
+.liebiao{
+	width: 100%;
+	height: 465px;
+}
+
+.liebiao ul{
+	width: 100%;
+	height: 465px;
+	background: #fff;
+	list-style: none;
+	text-align: center;
+}
+
+.liebiao ul li{
+	line-height: 80px;
+	font-weight: 300;
+	font-size: 18px;
+	color: #000;
+}
+
+.foot{
+	width: 100%;
+	height: 50px;
+	background: #33;
+	border: 2px solid pink;
+	border-left: 0px;
+	background: #fff;
+}
+
+#bigBox{
+	width: 100%;
+	height: 646px;
+}
+/*首页*/
+#home{
+	position: absolute;
+	width: 100%;
+	height: 646px;
+	z-index: 40;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*频道*/
+#classification{
+	width: 100%;
+	height: 646px;
+	position: absolute;
+	z-index: 30;
+	background: blue;
+	overflow: hidden;
+	display: none;
+}
+/*动态*/
+#dynamic{
+	width: 100%;
+	height: 646px;
+	position: absolute;
+	z-index: 20;
+	background: green;
+	overflow: hidden;
+	display: none;
+}
+/*会员*/
+#member{
+	width: 100%;
+	height: 646px;
+	position: absolute;
+	z-index: 10;
+	background: yellow;
+	overflow: hidden;
+	display: none;
+}
+
+/*home 内容*/
+/*顶部*/
+#home-header{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background: pink;
+	overflow: hidden;
+}
+
+#home-header span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px; 
+	border-radius: 10px;	
+	background: #fff;
+}
+
+#home-header img{
+	cursor:pointer;
+}
+
+#home-header input{
+		width: 150px;
+		height: 30px;
+		margin-top: 5px; 
+		margin-left: 50px;
+		 
+}
+
+.all {
+	display: inline-block;
+	margin-left:58px; 
+	margin-top: 5px; 
+}
+
+.all span{
+	margin: 0 5px;
+}
+#page-box:after{
+	center:"";
+	display: block;
+	clear: both;
+}
+#page-box{
+	width: 500%;
+	height: 549px;
+	position: absolute;
+	overflow: hidden;
+	transition: left 0.8s;
+}
+/*直播*/
+.page-box1{
+	width: 20%;
+	height:541px;
+	float: left;
+	overflow:hidden; 
+	overflow-y: auto;
+	/*display: none;*/
+}
+/*推荐*/
+.page-box2{
+	width: 20%;
+	height:541px;
+	float: left;
+	background: blue;
+	overflow:hidden; 
+	overflow-y: auto;
+	/*display: none;*/
+}
+
+
+/*追番*/
+.page-box3{
+	width: 20%;
+	height:541px;
+	float: left;
+	background: green;
+	overflow:hidden; 
+	overflow-y: auto;
+	/*display: none;*/
+}
+/*推荐*/
+.page-box4{
+	width: 20%;
+	height:541px;
+	float: left;
+	background: pink;
+	overflow:hidden; 
+	overflow-y: auto;
+	/*display: none;*/
+}
+/*追番*/
+.page-box5{
+	width: 20%;
+	height:541px;
+	float: left;
+	background: #333;
+	overflow:hidden; 
+	overflow-y: auto;
+	/*display: none;*/
+}
+
+/*标题栏*/
+#home-pageitem{
+	width: 100%;
+	height: 40px;
+	border-bottom: 15px solid pink;
+	background: #fff;
+	text-align: center;
+	clear: both;
+}
+
+#home-pageitem ul {
+	list-style: none;
+	text-align: center;
+	background: #fff;
+}
+
+#home-pageitem ul li{
+	display: inline-block;
+	height: 20px;
+	border: 2px solid transparent;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#home-pageitem ul li a{
+	font-size: 20px;
+	font-weight: 150;
+	color: #90424f;
+	text-decoration: none;
+}
+
+
+/*直播推送*/
+.live-push{
+	width: 100%;
+	height: 180px;
+	position: relative;
+	/*margin-left: 3px;*/
+	border:5px solid #90424f;
+	border-radius: 8px;
+	overflow: hidden;
+	/*overflow-y: scroll;*/
+}
+/*推送滚动*/
+#move-box{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	top: 0px; 
+}
+
+.push-img{
+	width: 100%;
+	height: 200px;
+}
+
+#dots {
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+	text-align: right;
+	padding-right: 20px;
+	line-height: 12px;
+}
+
+#dots span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-left: 8px;
+	background-color: rgba(7, 17, 27, 0.4);
+	cursor: pointer;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+}
+
+#dots span.active{
+	box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+	background-color: #ffffff;
+}
+
+.classification-box{
+	width: 100%;
+	height: 120px;
+}
+
+.classification-box ul{
+	list-style: none;
+	background: #fff;
+	clear: both;
+}
+
+.classification-box ul li{
+	display: block;
+	width: 25%;
+	height: 60px;
+	float: left; 
+	line-height: 60px;
+	text-align: center;
+}
+
+.classification-box ul li a{
+	font-size: 18px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.live-attention {
+	width: 100%;
+	height: 40px;
+	border-top: 3px solid pink;
+	border-bottom: 3px solid pink;
+	line-height: 40px;
+}
+
+.live-attention p{
+	font-size: 18px;
+	font-weight: 250;
+	letter-spacing: 2px;
+}
+
+.live-content{
+	width: 100%;
+}
+
+.live-content p{
+	font-weight: 250;
+	font-size: 20px;
+	margin-top: 8px;
+}
+
+.live-content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.live-content .vedio-box{
+	display: inline-block;
+	width: 43%;
+	height: 100px;
+	float: left;
+	border: 3px solid pink;
+	border-radius: 1px;
+	padding: 10px;
+}
+
+.vedio{
+	width: 100%;
+	height: 100%;
+	border: 3px solid blue;
+	/*padding: 3px;*/
+}
+
+hr{
+	height: 1px;
+	width: 100%;
+	margin-top: 25px;
+	background: blue;
+}
+
+/*tuijian*/
+#page-li{
+
+	width: 100%;
+	height: 30px;
+  	position: relative;
+	background: #fff;
+}
+
+#page-li p{
+	display: inline-block;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-weight: 300;
+	font-size: 15px;
+	color:#000;
+}
+
+.paihangbang{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top:-1px;
+	width: 80px;
+	height: 30px;
+	border: 1px solid pink;
+}
+
+.paihangbang p{
+	left: 20px;
+	margin-left: 0px;
+	margin-top: 2px;
+}
+
+.recommend-content{
+	display: 
+	width: 100%;
+	height: 180px;
+	border: 2px solid pink;
+}
+
+#recommend-box{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
+}
+
+#Rmove-box{
+	width: 100%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	top: 0px; 
+}
+
+#Rmove-box .Rpush-img{
+	width: 100%;
+	height: 180px;
+}
+
+#Rdots {
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+	text-align: right;
+	padding-right: 20px;
+	line-height: 12px;
+}
+
+#Rdots span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-left: 8px;
+	background-color: rgba(7, 17, 27, 0.4);
+	cursor: pointer;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+}
+
+#Rdots span.active{
+	box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+	background-color: #ffffff;
+}
+
+.Recommend{
+	position: absolute;
+	width: 400px;
+	height: 800px;
+}
+
+
+.Rcontent{
+	width: 100%;
+	overflow: hidden;
+}
+
+.Rcontent p{
+	font-weight: 250;
+	font-size: 20px;
+	margin-top: 0px;
+	border-left: 2px solid pink;
+}
+
+.Rcontent:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.Rcontent .Rvedio-box{
+	display: inline-block;
+	width: 43%;
+	height: 100px;
+	float: left;
+	border: 2px solid pink;
+	border-radius: 1px;
+	padding: 11px;
+}
+
+.Rvedio{
+	width: 100%;
+	height: 100%;
+	border: 3px solid blue;
+	/*padding: 3px;*/
+}
+
+hr{
+	height: 1px;
+	width: 100%;
+	margin-top: 25px;
+	background: blue;
+}
+/*底部*/
+#item{
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	border:2px solid pink;
+	border-radius: 1px;
+}
+
+#item ul{
+	text-align: center;
+	list-style: none;
+	background: #fff;
+}
+
+#item ul li{
+	display: inline-block;
+	height: 25px;
+	margin: 0 auto;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid transparent;
+	border-radius:10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#item ul li a{
+	font-size: 20px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #90424f;
+}
+
+.active-color{
+	background: #e8d3d7 ;
+}
+
+.active-color1{
+	background: #991;
+} 
+
+.active-color2{
+	background: #991;
+} 
+
+
+/*频道*/
+h2{
+	display: inline-block;
+	margin: 5px 55px 5px 140px;
+	letter-spacing: 2px;
+	color:#90424f ;
+}
+
+#dynamic h2{
+	margin: 5px 85px 5px 140px;
+}

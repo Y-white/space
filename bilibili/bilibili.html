@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bilibili</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+	<div class="main-box">
+		<div class="main">
+			<div id="mene">
+				<div class="touxiang">
+					<span></span>
+					<p>白小白</p>
+				</div>
+				<div class="hang">
+					<span></span>
+				</div>
+				<div class="liebiao">
+					<ul>
+						<li>首页</li>
+						<li>历史记录</li>
+						<li>离线缓存</li>
+						<li>我的收藏</li>
+						<li>稍后在看</li>
+						<li>设置</li>
+					</ul>
+				</div>
+				<div class="foot"></div>
+			</div>
+			<div id="item">
+				<ul>
+				<li class="active-color"><a >首页</a></li>
+				<li><a>频道</a></li>
+				<li><a>动态</a></li>
+				<li><a>会员</a></li>
+				</ul>
+			</div>
+		 	<div id="bigBox">
+				<!-- 首页 -->
+				<div id="home" class="page">
+					<!-- 顶部 -->
+					<div id="home-header">
+						<span ><img src="img/img4.jpg" width="100%"></span>
+						<input type="text" name="搜索">
+						<div class="all">
+							<span id="span1"></span>
+							<span id="span1"></span>
+							<span id="span1"></span>
+						</div>
+					</div>
+					<!-- 标题栏 -->
+					<div id="home-pageitem" >
+					<ul>
+						<li class="active-color"><a href="#" >直播</a></li>
+						<li><a>推荐</a></li>
+						<li><a>追番</a></li>
+						<li><a>动态</a></li>
+						<li><a>会员</a></li>
+					</ul>
+					</div>
+					<div id="page-box">
+					<!-- 直播 -->
+					<div id="live" class="page-box1 page-box6">
+						<!-- 直播推送 -->
+						<div class="live-push" id="active">
+							<div id="move-box">
+								<div class="push-img">
+									<img src="img/img1.jpg" width ="100%">	
+								</div>
+								<div class="push-img">
+									<img src="img/img2.jpg"
+									width="100%" >	
+								</div>
+								<div class="push-img">
+									<img src="img/img3.jpg"  width="100%">	
+								</div>
+							</div>
+							<div id="dots">
+								<span class="active"></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+						<!-- 直播分类 -->
+						<div class="live-classification">
+							<div class="classification-box">
+								<ul>
+									<li><a href="#">英雄联盟</a></li>
+									<li><a href="#">绝地求生</a></li>
+									<li><a href="#">第五人格</a></li>
+									<li><a href="#">唱见电台</a></li>
+									<li><a href="#">游戏</a></li>
+									<li><a href="#">手游</a></li>
+									<li><a href="#">娱乐</a></li>
+									<li><a href="#">全部标签</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- 直播关注 -->
+						<div class="live-attention">
+							<p>&nbsp我的关注&nbsp&nbsp<span>xxx</span></p>
+						</div>
+						<!-- 直播内容 -->
+						<div class="live-content">
+							<p>推荐直播</p>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+						<hr></hr>
+						<div class="live-content">
+							<p>视频唱见</p>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+						<hr></hr>
+						<div class="live-content">
+							<p>英雄联盟</p>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+						<hr></hr>
+						<div class="live-content">
+							<p>王者荣耀</p>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+						<hr></hr>
+						<div class="live-content">
+							<p>绝地求生</p>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+					</div>
+					<!-- 推荐 -->
+					<div id="recommend" class="page-box2 page-box6">
+						<!-- 页标题栏 -->
+						<div id="page-li">
+							<p>综合</p>
+							<div class="paihangbang">
+								<p>排行榜</p>
+							</div>
+						</div>
+						<!-- 推荐内容 -->
+						<div class="recommend-content">
+							<div id="recommend-box">
+								<div id="Rmove-box">
+									<div class="Rpush-img">
+										<img src="img/img1.jpg" width ="100%" height="100%">	
+									</div>
+									<div class="Rpush-img">
+										<img src="img/img2.jpg"
+										width="100%" height="100%" >	
+									</div>
+									<div class="Rpush-img">
+										<img src="img/img3.jpg"  width="100%" height="100%">	
+									</div>
+								</div>	
+								<div id="Rdots">
+									<span class="active"></span>
+									<span></span>
+									<span></span>
+									
+								</div>
+							</div>
+						</div>
+						<!-- 推荐内容 -->
+						<div class="Rcontent">
+							<p>推荐直播</p>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+						</div>
+						<div class="Rcontent">
+							<p>视频唱见</p>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+					</div>
+					<!-- 追番 -->
+					<div id="cartoon" class="page-box3 page-box6">
+						<div id="page-li">
+							<p>综合</p>
+							<div class="paihangbang">
+								<p>排行榜</p>
+							</div>
+						</div>
+						<!-- 推荐内容 -->
+						<div class="recommend-content">
+							<div id="recommend-box">
+								<div id="Rmove-box">
+									<div class="Rpush-img">
+										<img src="img/img1.jpg" width ="100%" height="100%">	
+									</div>
+									<div class="Rpush-img">
+										<img src="img/img2.jpg"
+										width="100%" height="100%" >	
+									</div>
+									<div class="Rpush-img">
+										<img src="img/img3.jpg"  width="100%" height="100%">	
+									</div>
+								</div>	
+								<div id="Rdots">
+									<span class="active"></span>
+									<span></span>
+									<span></span>
+									
+								</div>
+							</div>
+						</div>
+						<!-- 推荐内容 -->
+						<div class="Rcontent">
+							<p>推荐直播</p>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+						</div>
+						<div class="Rcontent">
+							<p>视频唱见</p>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+					</div>
+					<!-- 动态 -->
+					<div id="cartoon" class="page-box3 page-box6">
+						<div id="page-li">
+							<p>综合</p>
+							<div class="paihangbang">
+								<p>排行榜</p>
+							</div>
+						</div>
+						<!-- 推荐内容 -->
+						<div class="recommend-content">
+							<div id="recommend-box">
+								<div id="Rmove-box">
+									<div class="Rpush-img">
+										<img src="img/img1.jpg" width ="100%" height="100%">	
+									</div>
+									<div class="Rpush-img">
+										<img src="img/img2.jpg"
+										width="100%" height="100%" >	
+									</div>
+									<div class="Rpush-img">
+										<img src="img/img3.jpg"  width="100%" height="100%">	
+									</div>
+								</div>	
+								<div id="Rdots">
+									<span class="active"></span>
+									<span></span>
+									<span></span>
+									
+								</div>
+							</div>
+						</div>
+						<!-- 推荐内容 -->
+						<div class="Rcontent">
+							<p>推荐直播</p>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+						</div>
+						<div class="Rcontent">
+							<p>视频唱见</p>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="Rvedio-box">
+								<div class="Rvedio"></div>
+							</div>
+							<div class="vedio-box">
+								<div class="vedio"></div>
+							</div>
+						</div>
+					</div>
+					<!-- 会员-->
+					<div id="huiyuan" class="page-box5 page-box6">
+						<!-- 动漫关注 -->
+						<div class="cartoon-atterntion"></div>
+						<!-- 动漫分类 -->
+						<div class="cartoon-classification"></div>
+						<!-- 动漫推荐 -->
+						<div class="cartoon-recommend"></div>
+					</div>
+					</div>
+				</div>
+				<!-- 频道 -->
+				<div id="classification" class="page">
+					<div id="home-header">
+						<span ></span>
+						<h2>频道</h2>
+						<div class="all">
+							<span ></span>
+							<span ></span>
+						</div>
+					</div>
+
+				</div>
+				<!-- 动态 -->
+				<div id="dynamic" class="page">
+					<div id="home-header">
+						<span ></span>
+						<h2>动态</h2>
+						<div class="all">
+							<span ></span>
+						</div>
+					</div>
+				</div>
+				<!-- 会员 -->
+				<div id="member" class="page">
+					<div id="home-header">
+						<span ></span>
+						<h2>会员</h2>
+						<div class="all">
+							<span ></span>
+							<span ></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
