@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>白小白</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main-background" onclick=" snowfallStop()">
+		<div id="header">	<!-- 页头开始 -->
+			<nav>
+				<div class="logo"><a href="#">白小白</a></div>
+				<div class="scroll"><marquee behavior="altenate" direction="left" onmouseover="this.stop();"
+					onmouseout="this.start();"> 欢迎来到白小白博客</marquee></div>
+				<ul>
+					<li><a href="#banner" class="active">首页</a></li>
+					<li><a href="#conten1">知识点</a></li>
+					<li><a href="#conten2">项目</a></li>
+					<li id='sidebar_trigger'><a href="#">项目详细</a></li>
+				</ul>
+			</nav>
+			</div>
+			<div id="banner">
+				<div class="inner">
+					<h1>白小白</h1>
+					<p>
+						这是白小白个人制作的小博客，简单的记录个人学习前端知识的历程
+					</p>
+					<a href="#conten1"><button>了解我</button></a> 
+				</div>
+			</div>
+		</div><!-- 页头结束 -->	
+		<div id="content"><!-- 内容 -->
+			<section class="green-section" id="conten1">
+				<div class="wrapper">
+					<h2>学习的开始</h2>
+					<div class="hr"></div>
+					<p>对前端的认识来源于师兄的介绍。于大三下学期开始从硬件正式投身于前端的学习和开发。由于之前正好做了一个博客项目用来练习css与js，突发奇想将其改成个人学习经历的记录</p>
+				<div class="icon-ground">
+					<h1>目前接触的知识点</h1>
+					<span>jq</span>
+					<span>bootsrap</span>
+					<span>vue</span>
+				</div>			
+				</div>
+			</section>
+			<section class="blue-section">
+				<div class="article-preview" id="conten2">
+					<div class="img-section">
+						<img src="img/jq.png" alt="">
+						<span>截图时间：2018 </span>
+					</div>
+					<div class="text-section" >
+						<h2>小项目练习</h2>
+						<h3>轮播图、页面切换、瀑布流布局、滚动条自加载事件、页面加载动画插入</h3>
+						<p>熟悉jq，js函数的运用</p>
+					</div>
+				</div>
+				<div class="article-preview" id="conten3">
+					<div class="img-section">
+					  <img src="img/snake.png" alt="">
+					  <span>截图时间：2018 </span>
+					</div>
+					<div class="text-section" >
+						<h2>尝试制作贪吃蛇</h2>
+						<h3>用js尝试编写一个小游戏，练习js原生代码编写，代码其中参考了网上的代码（忘记是github的那个用户了）</h3>
+					</div>
+				</div>
+				<div class="article-preview" id="conten3">
+					<div class="text-section" >
+						<h2>bootsrap框架</h2>
+						<h3>制作了简单的浏览器界面，实现响应式布局，熟悉框架自定义css的运用(项目消失了)</h3>
+					</div>
+					<div class="img-section">
+					<img src="img/boot.jpg" alt="">
+					<span>截图时间：2018 </span>
+					</div>
+				</div>
+				<div class="article-preview" id="conten4">
+					<div class="img-section">
+					  <img src="img/vue.png" alt="网络太差">
+					  <span>截图时间：2018 </span>
+					</div>
+				    <div class="text-section">
+						<h2>vue框架</h2>
+						<h3>模仿手机客户端慕课网首页，实现页面切换，商品购物车</h3>
+						<p>熟悉vue的路由定义，父子组件的通信，组件渲染，localstorage，sessionstorage，钩子函数，数组更新</p>
+					</div>
+				</div>
+			</section>
+			<section class="purple-section">
+				<div class="header-wrapper">
+					<h2>本想用来记录问题的，目前暂未写</h2>
+					<div class="hr"></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis fugit perferendis repellat ex expedita doloremque .
+					</p>
+				</div>
+				<div class="card-group">
+					<div class="card">
+						<h2>表一</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis. Voluptatum ullam voluptates dolorum officiis amet reprehenderit, rem doloremque incidunt repellat, saepe, asperiores id. Distinctio accusamus officia suscipit quas optio.</p>	
+					</div>
+					<div class="card">
+						<h2>表二</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis. Voluptatum ullam voluptates dolorum officiis amet reprehenderit, rem doloremque incidunt repellat, saepe, asperiores id. Distinctio accusamus officia suscipit quas optio.</p>	
+					</div>
+					<div class="card">
+						<h2>表二</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis. Voluptatum ullam voluptates dolorum officiis amet reprehenderit, rem doloremque incidunt repellat, saepe, asperiores id. Distinctio accusamus officia suscipit quas optio.</p>	
+					</div>
+					<div class="card">
+						<h2>表二</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis. Voluptatum ullam voluptates dolorum officiis amet reprehenderit, rem doloremque incidunt repellat, saepe, asperiores id. Distinctio accusamus officia suscipit quas optio.</p>	
+					</div>
+					<div class="card">
+						<h2>表二</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis. Voluptatum ullam voluptates dolorum officiis amet reprehenderit, rem doloremque incidunt repellat, saepe, asperiores id. Distinctio accusamus officia suscipit quas optio.</p>	
+					</div>
+					<div class="card">
+						<h2>表二</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, officiis. Voluptatum ullam voluptates dolorum officiis amet reprehenderit, rem doloremque incidunt repellat, saepe, asperiores id. Distinctio accusamus officia suscipit quas optio.</p>	
+					</div>				</div>
+			</section>
+		</div><!-- 内容结束 -->
+		<div class="footer">
+			<div class="blue">页脚</div>
+		</div>
+		<div class="mask"></div>
+		<div class="sidebar">
+			<ul>
+				<li><a href="#conten2">jq css</a></li>
+				<li><a href="#conten3">bootstrap</a></li>
+				<li><a href="#conten4">vue</a></li>
+			</ul>	
+		</div>
+		<button class="back-to-top">返回顶部</button>
+	</div>
+	<script src="jquery/jquery.js"></script>
+	<script src="jquery/main.js"></script>
+	<script src="jquery/snowfall.jquery.js"></script>
+</body>
+</html>
